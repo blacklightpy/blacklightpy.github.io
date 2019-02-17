@@ -1,6 +1,6 @@
-var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+var isChromiumBasedBrowser = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
 var bgplayer;
-if(!isChrome){
+if(isChromiumBasedBrowser){
         bgplayer = document.createElement("iframe");
         bgplayer.setAttribute("src", "/music/intro.mp3");
         bgplayer.setAttribute("allow", "autoplay");
