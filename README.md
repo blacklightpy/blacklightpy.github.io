@@ -1,5 +1,3 @@
-# blacklightpy.github.io
-GitHub Static Website
-
+# GitHub Static Website
 
 This is my personal blog.
