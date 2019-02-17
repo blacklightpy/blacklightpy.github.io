@@ -15,4 +15,5 @@ else{
         src.setAttribute("type", "audio/mpeg");
         bgplayer.appendChild(src);
 }
+bgplayer.setAttribute("id", "bgm");
 document.body.appendChild(bgplayer);
