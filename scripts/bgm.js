@@ -1,5 +1,5 @@
 var isChromiumBasedBrowser = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-var bgplayer = undefined;
+var bgplayer;
 if(isChromiumBasedBrowser){
         bgplayer = document.createElement("iframe");
         bgplayer.setAttribute("src", "/music/intro.mp3");
