@@ -18,7 +18,7 @@ else{
 bgplayer.setAttribute("id", "bgm");
 document.body.appendChild(bgplayer);
 
-function toggle(){ 
+$("bgm").click(function(){ 
   if (bgplayer.paused){
     if(isChromiumBasedBrowser)
       $("#bgm").attr("src", "/music/intro.mp3");
