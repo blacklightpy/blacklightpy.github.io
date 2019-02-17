@@ -17,20 +17,3 @@ else{
 }
 bgplayer.setAttribute("id", "bgm");
 document.body.appendChild(bgplayer);
-
-$("bgm").click(function(){ 
-  if (bgplayer.paused){
-    if(isChromiumBasedBrowser)
-      $("#bgm").attr("src", "/music/intro.mp3");
-    else
-      $("#bgm").play();            
-    $("#toggle").text('Pause');
-  }
-  else{
-    if(isChromiumBasedBrowser)
-      $("#bgm").removeAttr("src");
-    else
-      $("#bgm").pause(); 
-    $("#toggle").text('Play');
-  }
-});
