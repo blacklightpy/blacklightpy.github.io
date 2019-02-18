@@ -3,7 +3,6 @@ var bgplayer;
 if(isChromiumBasedBrowser){
   bgplayer = document.createElement("iframe");
   bgplayer.setAttribute("src", "/music/intro.mp3");
-  bgplayer.setAttribute("type", "audio/mp3");
   bgplayer.setAttribute("allow", "autoplay");
   bgplayer.setAttribute("style", "display:none");
 }
