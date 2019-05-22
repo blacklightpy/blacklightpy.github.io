@@ -1,5 +1,2 @@
 theme: jekyll-theme-cayman
-analytics:
-  	provider: "google-universal"
-  google:
- tracking_id: "UA-67265424-2"
+google_analytics: "UA-67265424-2"
