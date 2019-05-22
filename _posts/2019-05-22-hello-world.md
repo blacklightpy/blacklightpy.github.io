@@ -9,9 +9,9 @@ This is my first blog post.
 #include<godzilla>
 int main()
 {
-	std::cout << "Hello World!";
-	godzilla.destroy_world();
-	godzilla.self_destruct();
-	return 0;
+    std::cout << "Hello World!";
+    godzilla.destroy_world();
+    godzilla.self_destruct();
+    return 0;
 }
 ```
