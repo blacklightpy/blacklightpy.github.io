@@ -5,8 +5,8 @@ title: "Hello World!"
 This is my first blog post.
 
 ```cpp
-#include<iostream>
-#include<godzilla>
+#include <iostream>
+#include "godzilla.hpp"
 int main()
 {
     std::cout << "Hello World!";
